@@ -1,0 +1,238 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #343a40;
+}
+
+.category,
+.task {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task label {
+  font-weight: bold;
+}
+
+#categories,
+#tasks {
+  margin-top: 20px;
+}
+
+#tasks table,
+#categories table {
+  width: 800px;
+  border-collapse: collapse;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tasks th,
+#categories th,
+#tasks td,
+#categories td {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  text-align: left;
+}
+
+#tasks th,
+#categories th {
+  background-color: #f8f9fa;
+}
+
+#categories th {
+  color: #007bff;
+}
+
+#tasks tbody td,
+#categories tbody td {
+  color: #343a40;
+}
+
+#tasks tbody tr:hover,
+#categories tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.btn-primary,
+.btn-success,
+.btn-danger {
+  margin-top: 0px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+header {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+
+.logo span {
+  font-size: 2.0rem;
+  margin-left: 10px;
+}
+
+main {
+  display: flex;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.sidebar {
+  background-color: #343a40;
+  color: #ffffff;
+  min-width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a:hover {
+  background-color: #555e66;
+}
+
+section {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 0;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* Add these styles for register and login pages */
+
+/* Register and Login Forms */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.register-container,
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+.task-display-container button {
+  margin-right: 10px;
+}
+
